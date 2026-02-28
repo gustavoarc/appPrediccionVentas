@@ -68,7 +68,7 @@ data
 
 # Recordar medida de error del modelo
 
-st.warning("El modelo tiene un error del 4%")
+st.warning("El modelo tiene un error del 20%")
 
 #descargar resultados
 csv = data.to_csv(index=False).encode("utf-8")
